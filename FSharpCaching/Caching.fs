@@ -1,5 +1,6 @@
 ﻿module Caching
 
+// From: http://en.wikibooks.org/wiki/F_Sharp_Programming/Caching
 let memoize f =
     let dict = new System.Collections.Generic.Dictionary<_,_>()
     fun n ->
